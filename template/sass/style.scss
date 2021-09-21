@@ -1,0 +1,117 @@
+// variable
+$primary: tomato;
+$white: white;
+$dark-gray: #212529;
+// init
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+
+body{
+    
+    .header{
+        .navbar{
+            .navbar-brand{
+                color: $primary;                
+                font-size: 2em;
+                font-weight: 700;
+                span{
+                    color: $dark-gray;
+                }
+            }
+            .form{
+                .input-group{
+                    .form-control{
+                        border-top: 1px solid $primary;
+                        border-left: 1px solid $primary;
+                        border-bottom: 1px solid $primary;
+                        border-right: 0px solid $primary;
+                        border-top-left-radius: 50px;
+                        border-bottom-left-radius: 50px;
+                        color: $primary;
+                        width: 250px;
+                        padding: 6px 20px;
+                    }
+                    .form-control:focus {
+                        color: $primary;
+                        background-color: $white;
+                        border-color: $primary;
+                        outline: 0;
+                        box-shadow: 0 0 0 0rem $primary;// rgb(13 110 253 / 25%);
+                    }
+                    .input-group-text{
+                        border-top: 1px solid $primary;
+                        border-left: 0px solid $primary;
+                        border-bottom: 1px solid $primary;
+                        border-right: 1px solid $primary;
+                        border-top-right-radius: 50px;
+                        border-bottom-right-radius: 50px;
+                        background: $white;
+                        i.la{
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+            .nav-link{
+                color: $dark-gray;
+            }
+        }
+        .shopping-bag{
+            .badge{
+                background: tomato;
+            }
+        }
+        
+    }
+    .main-content{
+        .product{
+            .card{
+                margin-bottom: 20px;
+                .card-img-top{}
+                .card-body{
+                    a{
+                        text-decoration: none;
+                        color: tomato;
+                    }
+                    .card-title{
+                        font-size: 1em;
+                        font-weight: 500;
+                        color: #484848;
+                    }
+                    .review{
+                        i{
+                            color: #ffc32e;
+                        }
+                        span{
+                            font-size: .8em;
+                            font-weight: 400;
+                            color: #9c9c9c;
+                        }
+                    }
+                    .price{
+                        color: #484848;
+                        a{
+                            i.la{
+                                font: 1.5em;
+                                color: tomato;
+                            }
+                        }
+                    }
+                    p.card-text {
+                        line-height: 1em;
+                        font-size: .9em;
+                    }
+                }
+
+
+            }
+        }
+    }
+    .footer{
+
+    }
+}

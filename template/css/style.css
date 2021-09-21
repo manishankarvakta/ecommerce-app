@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto'; }
+
+body .header .navbar .navbar-brand {
+  color: tomato;
+  font-size: 2em;
+  font-weight: 700; }
+  body .header .navbar .navbar-brand span {
+    color: #212529; }
+body .header .navbar .form .input-group .form-control {
+  border-top: 1px solid tomato;
+  border-left: 1px solid tomato;
+  border-bottom: 1px solid tomato;
+  border-right: 0px solid tomato;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  color: tomato;
+  width: 250px;
+  padding: 6px 20px; }
+body .header .navbar .form .input-group .form-control:focus {
+  color: tomato;
+  background-color: white;
+  border-color: tomato;
+  outline: 0;
+  box-shadow: 0 0 0 0rem tomato; }
+body .header .navbar .form .input-group .input-group-text {
+  border-top: 1px solid tomato;
+  border-left: 0px solid tomato;
+  border-bottom: 1px solid tomato;
+  border-right: 1px solid tomato;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background: white; }
+  body .header .navbar .form .input-group .input-group-text i.la {
+    color: tomato; }
+body .header .navbar .nav-link {
+  color: #212529; }
+body .header .shopping-bag .badge {
+  background: tomato; }
+body .main-content .product .card {
+  margin-bottom: 20px; }
+  body .main-content .product .card .card-body a {
+    text-decoration: none;
+    color: tomato; }
+  body .main-content .product .card .card-body .card-title {
+    font-size: 1em;
+    font-weight: 500;
+    color: #484848; }
+  body .main-content .product .card .card-body .review i {
+    color: #ffc32e; }
+  body .main-content .product .card .card-body .review span {
+    font-size: .8em;
+    font-weight: 400;
+    color: #9c9c9c; }
+  body .main-content .product .card .card-body .price {
+    color: #484848; }
+    body .main-content .product .card .card-body .price a i.la {
+      font: 1.5em;
+      color: tomato; }
+  body .main-content .product .card .card-body p.card-text {
+    line-height: 1em;
+    font-size: .9em; }
+
+/*# sourceMappingURL=style.css.map */
